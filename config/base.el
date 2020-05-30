@@ -12,9 +12,10 @@
 (scroll-bar-mode -1)
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
-(global-linum-mode -1)
+;(global-linum-mode -1)
 (column-number-mode t)
 (show-paren-mode t)
+(delete-selection-mode 1)
 (global-unset-key (kbd "C-z"))
 
 (add-hook 'window-setup-hook 'toggle-frame-maximized t)

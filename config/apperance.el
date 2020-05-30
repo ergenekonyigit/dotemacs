@@ -66,3 +66,13 @@ If no FONT-SIZE provided, reset the font size to its default variable."
 
 (use-package minions
   :config (minions-mode 1))
+
+(use-package darkroom-mode)
+
+;;(use-package markdown-mode
+;;  :ensure t
+;;  :commands (markdown-mode gfm-mode)
+;;  :mode (("README\\.md\\'" . gfm-mode)
+;;         ("\\.md\\'" . markdown-mode)
+;;         ("\\.markdown\\'" . markdown-mode))
+;;  :init (setq markdown-command "pandoc"))

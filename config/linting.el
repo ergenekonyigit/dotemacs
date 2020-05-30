@@ -39,3 +39,5 @@
 
 (use-package package-lint
   :commands (package-lint-current-buffer))
+
+(use-package turkish)
